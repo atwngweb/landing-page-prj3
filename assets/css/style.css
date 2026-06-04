@@ -13,6 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
+  height: 10000px;
 }
 
 /* =========Commom========== */
@@ -91,21 +92,92 @@ a {
   background-color: #fff;
 }
 
-.action {
+.header-action {
   font-size: 0;
 }
 
-.action__login {
+.header-action__login {
   color: #c9d2da;
   font-size: 1.6rem;
   font-weight: 300;
   margin-right: 28px;
 }
 
-.action__signup {
+.header-action__signup {
   min-width: 104px;
   height: 44px;
   line-height: 44px;
 }
 
 /* ========END HEADER========= */
+
+/* ===========HERO============ */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.hero__content {
+  width: 44%;
+}
+
+.hero__title {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 1.2; /* 114.286% */
+  letter-spacing: -1.4px;
+}
+
+.hero__desc {
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.7; /* 166.667% */
+  margin: 22px 0 38px;
+}
+
+.hero__row {
+  display: flex; /* khử khoảng trắng giữa 2 thẻ inline*/
+  align-items: center;
+}
+.action__book {
+  border-radius: 30px;
+  margin-right: 38px;
+}
+
+.hero__phone {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.hero__media {
+  width: 46%;
+}
+
+.hero__images {
+  display: flex;
+  align-items: center;
+}
+
+.hero__img--top {
+  width: 330px;
+  height: 540px;
+  margin-right: -6px;
+  border-radius: 6px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.hero__img--bottom {
+  width: 210px;
+  height: 410px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* ===========HERO============ */
