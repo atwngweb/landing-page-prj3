@@ -342,19 +342,17 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 130px;
 }
 
 .feature-img {
   position: relative;
-  width: 570px;
+  width: 49%;
+  padding-bottom: 100px;
 }
 
 .feature-infor {
-  width: 468px;
-}
-
-.feature-content {
-  padding-top: 80px;
+  width: 40%;
 }
 
 .fearture-img__first,
@@ -371,7 +369,7 @@ a {
 
 .fearture-img__second {
   position: absolute;
-  top: 100px;
+  bottom: 0;
   right: 0;
   width: 332px;
   height: 370px;
