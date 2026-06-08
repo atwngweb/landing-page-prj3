@@ -335,7 +335,8 @@ a {
 
 /* =========Feature=============== */
 .feature {
-  margin: 170px 0;
+  margin: 85px 0;
+  padding: 85px 0;
 }
 
 .feature-inner {
@@ -384,3 +385,69 @@ a {
   border-radius: 30px;
 }
 /* =========End Feature=============== */
+
+/* ============Member================ */
+
+.member__heading {
+  text-align: center;
+}
+
+.btn-wrap {
+  text-align: center;
+  margin: 38px 0 70px;
+}
+
+.member__btn {
+  border-radius: 30px;
+}
+
+.member__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.member-user__avatar {
+  width: 262px;
+  height: 290px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.member-user__name {
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.member-user__desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.85; /* 185.714% */
+}
+
+.member-nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 38px;
+}
+
+.member-nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+}
+
+.member-nav__item:hover {
+  background-color: #2e80ce;
+  color: #fff;
+}
+/* ============End Member================ */
