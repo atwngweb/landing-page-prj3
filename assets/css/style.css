@@ -387,7 +387,10 @@ a {
 /* =========End Feature=============== */
 
 /* ============Member================ */
-
+.member {
+  padding-bottom: 85px;
+  margin-bottom: 85px;
+}
 .member__heading {
   text-align: center;
 }
@@ -404,6 +407,7 @@ a {
 .member__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
 }
 
 .member-user__avatar {
@@ -413,9 +417,14 @@ a {
   object-fit: cover;
 }
 
+.member-user__name,
+.member-user__desc {
+  display: flex;
+  justify-content: center;
+}
+
 .member-user__name {
   color: #10375c;
-  text-align: center;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.75; /* 175% */
@@ -423,7 +432,6 @@ a {
 
 .member-user__desc {
   color: #575f66;
-  text-align: center;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.85; /* 185.714% */
@@ -454,3 +462,50 @@ a {
   border-color: #2e80ce;
 }
 /* ============End Member================ */
+
+/* ============App=================== */
+
+.app__row {
+  border-radius: 4px;
+  position: relative;
+  background-color: #2e80ce;
+  height: 427px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app__img {
+  position: absolute;
+  top: -95px;
+  left: 70px;
+}
+
+.app__content {
+  max-width: 586px;
+  margin-right: 70px;
+}
+
+.app__heading {
+  width: 489px;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+
+.app__desc {
+  width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+  margin-bottom: 38px;
+}
+
+.app__link {
+  display: flex;
+  column-gap: 28px;
+}
+/* ============End App=================== */
