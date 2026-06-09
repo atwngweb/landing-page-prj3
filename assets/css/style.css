@@ -13,7 +13,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
-  height: 10000px;
 }
 
 /* =========Commom========== */
@@ -640,3 +639,120 @@ a {
   border-radius: 30px;
 }
 /* ==========End Appointment============== */
+
+/* ==============FOOTER================ */
+.footer {
+  margin-top: 170px;
+  height: 553px;
+  background-color: #10375c;
+  padding-top: 100px;
+}
+
+.body-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 78px;
+}
+
+.footer-info__desc {
+  color: #a9b3bb;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+  margin-top: 22px;
+}
+
+.footer-support {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-support__item li:first-child {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  margin-bottom: 20px;
+}
+
+.footer-support__item li:not(li:first-child) {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85; /* 185.714% */
+  margin-bottom: 10px;
+}
+
+.footer-sub__title {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+
+.footer-sub__icon {
+  display: flex;
+  column-gap: 10px;
+  margin: 20px 0 28px;
+}
+
+.bg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.icon-fb {
+  background: #2e80ce;
+}
+
+.footer-sub__desc {
+  max-width: 273px;
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.85; /* 185.714% */
+  margin: 20px 0 10px;
+}
+
+.sub__input {
+  width: 212px;
+  height: 46px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  background: #10375c;
+  /* outline: none; */
+}
+.sub__btn {
+  width: 108px;
+  height: 46px;
+  border-radius: 4px;
+  background: #2e80ce;
+  border: none;
+  margin-left: 12px;
+}
+
+.footer__divided::before {
+  display: inline-block;
+  content: "";
+  width: 1170px;
+  height: 1px;
+  background: #406181;
+}
+
+.footer__copyright {
+  color: #aab3ba;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85; /* 185.714% */
+  margin-top: 28px;
+}
+/* ==============END FOOTER================ */
