@@ -595,3 +595,48 @@ a {
 }
 
 /* ===============End News================== */
+
+/* ==========Appointment============== */
+.appointment__content {
+  padding: 100px 0;
+  background: #f6fbff;
+}
+
+.appointment__heading {
+  position: relative;
+  color: #10375c;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+
+.appointment__heading::after {
+  position: absolute;
+  bottom: -18px;
+  right: 44%;
+  display: inline-block;
+  content: "";
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+
+.appointment__desc {
+  margin: 38px auto;
+  width: 617px;
+  color: #575f66;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+}
+
+.appointment__wrap {
+  text-align: center;
+}
+
+.appointment__btn {
+  border-radius: 30px;
+}
+/* ==========End Appointment============== */
